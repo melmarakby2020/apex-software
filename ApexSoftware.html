@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="shortcut icon" href="img/favicon.ico">
+<meta name="theme-color" content="#4F6EF7">
+
+<meta name="description" content="Apex Software - شركة مصرية متخصصة في تطوير أنظمة ERP وCRM وPOS، تطبيقات الموبايل، ومواقع الويب الاحترافية للشركات.">
+<meta name="keywords" content="Apex Software, ERP, CRM, POS, تطوير برمجيات, تطبيقات موبايل, مواقع ويب, مصر">
+<meta name="author" content="Apex Software">
+<link rel="canonical" href="https://apexsoftware.example.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Apex Software - Smart Solutions, Stronger Business">
+<meta property="og:description" content="حلول برمجية متكاملة ومخصصة لتلبية احتياجات سوق العمل B2B — أنظمة ERP وCRM وPOS، تطبيقات موبايل، ومواقع ويب.">
+<meta property="og:image" content="img/og-image.png">
+<meta property="og:locale" content="ar_EG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Apex Software - Smart Solutions, Stronger Business">
+<meta name="twitter:description" content="حلول برمجية متكاملة ومخصصة لتلبية احتياجات سوق العمل B2B.">
+<meta name="twitter:image" content="img/og-image.png">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="ApexSoftware.css">
+
+<title data-key="doc_title">Apex Software</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</head>
+<body>
+
+<div id="splash-screen">
+  <div class="splash-orb o1"></div>
+  <div class="splash-orb o2"></div>
+  <div class="splash-orb o3"></div>
+  <div class="splash-content">
+    <div class="splash-logo"><span class="gradient-word">APEX</span> SOFTWARE</div>
+    <div class="splash-slogan">Smart Solutions — Stronger Business</div>
+    <div class="splash-progress"><div class="splash-progress-bar" id="splash-progress-bar"></div></div>
+    <div class="splash-skip">Click anywhere to skip</div>
+  </div>
+</div>
+
+<nav id="main-nav">
+  <div class="logo"><span class="gradient-word">APEX</span> SOFTWARE</div>
+  <ul class="nav-links">
+    <li><a href="#" data-key="nav_home">الرئيسية</a></li>
+    <li><a href="#about" data-key="nav_about">من نحن</a></li>
+    <li><a href="#products" data-key="nav_products">منتجاتنا</a></li>
+    <li><a href="#services" data-key="nav_services">خدماتنا</a></li>
+    <li><a href="#works" data-key="nav_works">أعمالنا</a></li>
+    <li><a href="#testimonials" data-key="nav_testimonials">آراء العملاء</a></li>
+    <li><a href="#contact" data-key="nav_contact">اتصل بنا</a></li>
+    <li><a href="#subs" data-key="nav_subs">تعاقد الآن</a></li>
+  </ul>
+  <div style="display:flex;gap:10px;align-items:center;">
+    <button class="theme-btn" id="theme-btn" title="Dark / Light" aria-label="Toggle dark or light theme"><i class="fa-solid fa-moon" id="theme-icon"></i></button>
+    <button class="lang-btn" id="lang-btn">English</button>
+    <button class="nav-cta" onclick="document.getElementById('subs').scrollIntoView({behavior:'smooth'})" data-key="hero_btn">تعاقد الآن</button>
+    <button class="menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <ul class="mobile-nav-links">
+    <li><a href="#" data-key="nav_home">الرئيسية</a></li>
+    <li><a href="#about" data-key="nav_about">من نحن</a></li>
+    <li><a href="#products" data-key="nav_products">منتجاتنا</a></li>
+    <li><a href="#services" data-key="nav_services">خدماتنا</a></li>
+    <li><a href="#works" data-key="nav_works">أعمالنا</a></li>
+    <li><a href="#testimonials" data-key="nav_testimonials">آراء العملاء</a></li>
+    <li><a href="#contact" data-key="nav_contact">اتصل بنا</a></li>
+    <li><a href="#subs" data-key="nav_subs">تعاقد الآن</a></li>
+  </ul>
+</div>
+<div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+
+<div class="social-float">
+  <a href="https://www.facebook.com/share/1HtgdUyurf/?mibextid=wwXIfr" target="_blank" class="soc-icon fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/apexs0ftware?igsh=MWxtYmZodjFkczNtYg%3D%3D&utm_source=qr" target="_blank" class="soc-icon ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="https://wa.me/201009758342" target="_blank" class="soc-icon wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+<section id="hero">
+  <canvas id="canvas3d"></canvas>
+
+  <div class="hero-content">
+    <h1 class="hero-title"><span class="gradient-word">APEX</span> SOFTWARE</h1>
+    <p class="hero-sub" data-key="hero_desc">نحن لا نبرمج مجرد أنظمة، بل نصنع المحركات الذكية التي تقود الشركات نحو المستقبل</p>
+    <div class="hero-btns">
+      <a href="#subs" class="btn-primary" data-key="hero_btn">تعاقد الآن</a>
+      <a href="#products" class="btn-outline" data-key="nav_products">منتجاتنا</a>
+    </div>
+  </div>
+
+</section>
+
+<div class="stats-bar">
+  <div class="reveal"><div class="stat-val" data-count="50" data-suffix="+">0</div><div class="stat-label" data-key="stat_proj">مشروع منجز</div></div>
+  <div class="reveal rv1"><div class="stat-val" data-count="98" data-suffix="%">0</div><div class="stat-label" data-key="stat_sat">رضا العملاء</div></div>
+  <div class="reveal rv2"><div class="stat-val" data-count="6" data-suffix="+">0</div><div class="stat-label" data-key="stat_yrs">سنوات خبرة</div></div>
+  <div class="reveal rv3"><div class="stat-val" data-count="24" data-suffix="/7">0</div><div class="stat-label" data-key="stat_sup">دعم فني مستمر</div></div>
+</div>
+
+<section class="about" id="about">
+  <div>
+    <h2 class="sec-title reveal" data-key="about_title">About Us</h2>
+    <p class="sec-sub reveal" data-key="about_desc">تأسست شركة APEX SOFTWARE برؤية طموحة على أيدي مهندسين مصريين يمتلكون خبرة تمتد لأكثر من 6 سنوات في قطاع تكنولوجيا المعلومات وتطوير البرمجيات. نحن فخورون بكوننا شركة مصرية تقدم حلولاً برمجية وأنظمة سحابية متكاملة (ERP, CRM, POS) بمواصفات عالمية، مصممة خصيصاً لتمكين الشركات من إدارة عملياتها بكفاءة وسلاسة. نؤمن بأن نجاح عملائنا هو معيار نمونا.</p>
+    <ul class="about-list">
+      <li class="reveal rv1"><span class="check-circle">✓</span><span data-key="ab1">حلول سحابية متكاملة بمواصفات عالمية</span></li>
+      <li class="reveal rv1"><span class="check-circle">✓</span><span data-key="ab2">أعلى معايير الأمان والدعم الفني المستمر</span></li>
+      <li class="reveal rv2"><span class="check-circle">✓</span><span data-key="ab3">فريق من المهندسين المصريين المتخصصين</span></li>
+      <li class="reveal rv2"><span class="check-circle">✓</span><span data-key="ab4">أنظمة مخصصة تلائم احتياجات سوق B2B</span></li>
+    </ul>
+  </div>
+  <div class="about-3d">
+    <div class="glow-ring"></div>
+    <canvas id="cube-canvas" width="400" height="400"></canvas>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="process-header">
+    <h2 class="sec-title reveal" data-key="process_title">How We Work</h2>
+    <p class="sec-sub reveal" style="margin:0 auto;text-align:center;" data-key="process_subtitle">رحلة واضحة من الفكرة إلى الإطلاق، خطوة بخطوة</p>
+  </div>
+  <div class="process-grid">
+    <div class="pstep reveal rv1">
+      <div class="pstep-num">01</div>
+      <div class="pstep-icon"><i class="fa-solid fa-comments"></i></div>
+      <h3 data-key="process1_title">استشارة وتحليل</h3>
+      <p data-key="process1_desc">بنسمع احتياجاتك ونحلل تحديات عملك عشان نحدد الحل الأنسب لشركتك.</p>
+    </div>
+    <div class="pstep reveal rv2">
+      <div class="pstep-num">02</div>
+      <div class="pstep-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+      <h3 data-key="process2_title">تصميم وتخطيط</h3>
+      <p data-key="process2_desc">نصمم واجهة وتجربة استخدام مريحة، ونرسم خطة تقنية واضحة قبل بداية التنفيذ.</p>
+    </div>
+    <div class="pstep reveal rv3">
+      <div class="pstep-num">03</div>
+      <div class="pstep-icon"><i class="fa-solid fa-code"></i></div>
+      <h3 data-key="process3_title">تطوير وبناء</h3>
+      <p data-key="process3_desc">فريقنا بيحول التصميم لنظام شغال فعليًا، مع تحديثات دورية أول بأول.</p>
+    </div>
+    <div class="pstep reveal rv3">
+      <div class="pstep-num">04</div>
+      <div class="pstep-icon"><i class="fa-solid fa-rocket"></i></div>
+      <h3 data-key="process4_title">تسليم ودعم مستمر</h3>
+      <p data-key="process4_desc">إطلاق النظام مع تدريب فريقك، ودعم فني مستمر بعد التسليم.</p>
+    </div>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <div class="products-header">
+    <h2 class="sec-title reveal" data-key="products_title">Our Products</h2>
+    <p class="sec-sub reveal" data-key="products_subtitle">حلول برمجية متكاملة ومخصصة لتلبية احتياجات سوق العمل B2B</p>
+  </div>
+  <div class="products-grid">
+    <div class="pcard reveal soon-card">
+      <div class="pcard-icon">
+        <img src="img/crm.jpeg" onerror="this.parentElement.innerHTML='🤝'">
+      </div>
+      <h3>APEX CRM</h3>
+      <p data-key="crm_desc">أداة ذكية لمتابعة عملائك، إدارة المبيعات، وتنظيم حركات الاتصال والدعم الفني لبناء علاقات مستدامة ومربحة.</p>
+      <a href="#subs" data-key="subs_now">تعاقد الآن ←</a>
+    </div>
+    <div class="pcard reveal rv1">
+      <div class="pcard-icon">
+        <img src="img/apex-erb-icon.png" onerror="this.parentElement.innerHTML='⚙️'">
+      </div>
+      <h3>APEX ERP</h3>
+      <p data-key="erp_desc">نظام متكامل لإدارة موارد المؤسسات، الحسابات العامة، المشتريات، والمخازن برؤية تحليلية دقيقة تساعدك على اتخاذ القرار.</p>
+      <a href="#subs" data-key="subs_now">تعاقد الآن ←</a>
+    </div>
+
+    <div class="pcard reveal rv2">
+      <div class="pcard-icon">
+        <img src="img/pos.jpeg" onerror="this.parentElement.innerHTML='🏪'">
+      </div>
+      <h3>APEX POS</h3>
+      <p data-key="pos_desc">نظام نقاط البيع السريع لإدارة الكاشير، الفواتير، وحسابات المستودعات الفورية المتوافقة مع أحدث المتطلبات.</p>
+      <a href="#subs" data-key="subs_now">تعاقد الآن ←</a>
+    </div>
+
+    <div class="pcard reveal rv3">
+      <div class="pcard-icon">
+        <img src="img/talip-icon.jpeg" onerror="this.parentElement.innerHTML='🎓'">
+      </div>
+      <h3>Talip</h3>
+      <p data-key="talip_desc">نظام متكامل لإدارة سناتر الدروس وشؤون الطلاب، مع تسجيل الحضور اليومي وتقارير التقييمات أولاً بأول.</p>
+      <a href="#subs" data-key="subs_now">تعاقد الآن ←</a>
+    </div>
+
+    <div class="pcard reveal rv3">
+      <div class="pcard-icon">
+        <img src="img/CanteenX.png" onerror="this.parentElement.innerHTML='🎓'">
+      </div>
+      <h3>CANTEEN X</h3>
+      <p data-key="canteenx_desc">نظام ذكي لإدارة البوفيه داخل الشركات، لتسجيل طلبات الموظفين، متابعة الحسابات والفواتير، وإدارة المخزون لحظيًا بكل سهولة ودقة.</p>
+      <a href="#subs" data-key="subs_now">تعاقد الآن ←</a>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="services-header">
+    <h2 class="sec-title reveal" data-key="services_title">Our Services</h2>
+  </div>
+  <div class="services-grid">
+    <div class="scard reveal rv1">
+      <div class="scard-icon s1"><i class="fa-solid fa-gears"></i></div>
+      <h3 data-key="svc1_title">تطوير البرمجيات والأنظمة المخصصة</h3>
+      <p data-key="svc1_desc">نحول أفكار عملك إلى واقع رقمي متكامل — سيستم إداري، منصة خدمات، أو موقع ويب احترافي من الصفر بأحدث التقنيات السحابية.</p>
+
+      <a href="#contact" style="margin-top:16px;display:inline-block;" data-key="contact_now">تواصل معنا ←</a>
+    </div>
+    <div class="scard reveal rv2">
+      <div class="scard-icon s2"><i class="fa-solid fa-mobile-screen-button"></i></div>
+      <h3 data-key="svc2_title">تطوير تطبيقات الموبايل</h3>
+      <p data-key="svc2_desc">تطبيقات iOS و Android بأعلى معايير الأداء والتصميم — من الفكرة حتى النشر على المتاجر.</p>
+      <br>
+      <a href="#contact" style="margin-top:16px;display:inline-block;" data-key="contact_now">تواصل معنا ←</a>
+    </div>
+    <div class="scard reveal rv3">
+      <div class="scard-icon s3"><i class="fa-solid fa-globe"></i></div>
+      <h3 data-key="svc3_title">تصميم وتطوير مواقع الويب</h3>
+      <p data-key="svc3_desc">مواقع احترافية سريعة ومتجاوبة مع جميع الأجهزة — تجارة إلكترونية، مواقع شركات، ومنصات SaaS.</p>
+
+      <a href="#contact" style="margin-top:16px;display:inline-block;" data-key="contact_now">تواصل معنا ←</a>
+    </div>
+  </div>
+</section>
+
+<section class="works" id="works">
+  <div class="works-header">
+    <span class="sec-tag" data-key="works_tag">Our Story in Numbers</span>
+    <h2 class="sec-title reveal" data-key="works_title">Last Works</h2>
+    <p class="works-subtitle reveal" data-key="works_subtitle">مشروعات صنعت فرقًا حقيقيًا لعلامات وشركات في مختلف المجالات</p>
+  </div>
+  <div class="works-book reveal">
+    <div class="book-spine"></div>
+  <div class="swiper works-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/tht.jpg" alt="THT" loading="lazy">
+        <div class="swiper-caption">
+          <h4>THT</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work1_service">مستخدم لApex ERP</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/market-work.jpg" alt="Market" loading="lazy">
+        <div class="swiper-caption">
+          <h4 data-key="work2_title">السعيد ماركت</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work2_service">تصميم شعار السلسلة ودليل الألوان التجاري</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/cleancar-work.jpg" alt="Clean Car" loading="lazy">
+        <div class="swiper-caption">
+          <h4>Clean Car</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work3_service">تصميم شعار العلامة التجارية</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/chemistry-work.jpg" alt="Chemistry Center Logo" loading="lazy">
+        <div class="swiper-caption">
+          <h4 data-key="work4_title">سنتر أ/ محمود حسن</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work4_service">تصميم الشعار وتطوير نظام Talip لإدارة السنتر</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/work-omran.jpg" alt="عمران للمقاولات" loading="lazy">
+        <div class="swiper-caption">
+          <h4 data-key="work5_title">عمران للمقاولات</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work5_service">تطوير نظام ERP لإدارة المشاريع والمخازن</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/work-tasa.jpg" alt="طاسة" loading="lazy">
+        <div class="swiper-caption">
+          <h4 data-key="work6_title">طاسة</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work6_service">تطوير تطبيق موبايل لطلب الطعام (iOS & Android)</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/work-shifa.jpg" alt="مجمع الشفاء الطبي" loading="lazy">
+        <div class="swiper-caption">
+          <h4 data-key="work7_title">مجمع الشفاء الطبي</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work7_service">نظام CRM لإدارة حجوزات ومتابعة المرضى</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/work-lamsa.jpg" alt="لمسة" loading="lazy">
+        <div class="swiper-caption">
+          <h4 data-key="work8_title">لمسة</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work8_service">نظام نقاط بيع (POS) متكامل للفروع</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/work-elnokhba.jpg" alt="النخبة العقارية" loading="lazy">
+        <div class="swiper-caption">
+          <h4 data-key="work9_title">النخبة العقارية</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work9_service">تصميم وتطوير موقع إلكتروني لعرض الوحدات العقارية</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide glowlight-slide">
+        <img src="img/glowlight.jpeg" alt="GLOWLIGHT" loading="lazy">
+        <div class="swiper-caption">
+          <h4>GLOWLIGHT</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work10_service">تطوير نظام ERP لإدارة المشاريع والمخازن</strong></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img/anas.jpeg" alt="ANAS PERFUME" loading="lazy">
+        <div class="swiper-caption">
+          <h4>ANAS PERFUME</h4>
+          <p><span data-key="work_service_label">الخدمة المقدمة</span> <strong data-key="work11_service">تصميم وتطوير موقع إلكتروني لعرض المنتجات وإدارة الطلبات</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next" aria-label="Next project"></div>
+    <div class="swiper-button-prev" aria-label="Previous project"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+  <div class="testimonials-header">
+    <h2 class="sec-title reveal" data-key="testimonials_title">What Our Clients Say</h2>
+    <p class="sec-sub reveal" style="margin:0 auto;text-align:center;" data-key="testimonials_subtitle">ثقة عملائنا هي أكبر دليل على جودة شغلنا</p>
+  </div>
+  <div class="testimonials-grid">
+    <div class="tcard reveal rv1">
+      <div class="t-stars">★★★★★</div>
+      <p class="t-quote" data-key="t1_quote">تعاملنا مع Apex Software في تطوير نظام إدارة المخزون، والفريق كان محترف جدًا من أول استشارة لحد التسليم. النظام سهّل علينا متابعة الفروع بشكل كبير.</p>
+      <div class="t-author">
+        <div class="t-avatar" data-key="t1_initial">م</div>
+        <div>
+          <div class="t-name" data-key="t1_name">محمد عبد الرحمن</div>
+          <div class="t-role" data-key="t1_role">صاحب سلسلة محلات تجارية</div>
+        </div>
+      </div>
+    </div>
+    <div class="tcard reveal rv2">
+      <div class="t-stars">★★★★★</div>
+      <p class="t-quote" data-key="t2_quote">موقعنا الجديد اللي عملهولنا فريق Apex غيّر شكل تواصلنا مع عملائنا تمامًا. تصميم عصري وسريع، والدعم الفني بعد التسليم ممتاز.</p>
+      <div class="t-author">
+        <div class="t-avatar" data-key="t2_initial">س</div>
+        <div>
+          <div class="t-name" data-key="t2_name">سارة الشريف</div>
+          <div class="t-role" data-key="t2_role">مديرة تسويق</div>
+        </div>
+      </div>
+    </div>
+    <div class="tcard reveal rv3">
+      <div class="t-stars">★★★★★</div>
+      <p class="t-quote" data-key="t3_quote">نظام Talip ساعدنا كسنتر تعليمي نتابع حضور وتقييمات الطلاب بشكل رقمي بالكامل، ووفر علينا وقت ومجهود كبير كان بيروح في الورق.</p>
+      <div class="t-author">
+        <div class="t-avatar" data-key="t3_initial">أ</div>
+        <div>
+          <div class="t-name" data-key="t3_name">أ. محمود حسن</div>
+          <div class="t-role" data-key="t3_role">مدير سنتر تعليمي</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-header">
+    <h2 class="sec-title reveal" data-key="contact_title">Contact Us</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="ccard reveal rv1">
+      <div class="ccard-icon"><i class="fa fa-map-marker" style="color:#4F6EF7;"></i></div>
+      <h3 data-key="address_title">Address</h3>
+      <p data-key="address_desc">العاشر من رمضان، الشرقية، مصر</p>
+    </div>
+    <div class="ccard reveal rv2">
+      <div class="ccard-icon"><i class="fa fa-phone" style="color:#7C3AED;"></i></div>
+      <h3 data-key="phone_title">Phone</h3>
+      <p style="direction:ltr;">+20 100 975 8342<br>+20 127 189 6087<br>+20 101 468 9885</p>
+    </div>
+    <div class="ccard reveal rv3">
+      <div class="ccard-icon"><i class="fa-regular fa-envelope" style="color:#06B6D4;"></i></div>
+      <h3 data-key="mail_title">E-Mail</h3>
+      <p>apexsoftware@gmail.com</p>
+    </div>
+  </div>
+</section>
+
+<section class="hire" id="subs">
+  <div class="hire-header">
+    <h2 class="sec-title reveal" data-key="hire_title">Contract Now</h2>
+    <p class="sec-sub reveal" style="margin:0 auto;text-align:center;" data-key="hire_sub">اكتب تفاصيل مشروعك أو استفسارك وابعتها لينا مباشرة على الواتساب وهنرد عليك في أسرع وقت</p>
+  </div>
+  <div class="hire-box reveal">
+    <textarea id="hire-message" data-key-placeholder="hire_placeholder" placeholder="اكتب رسالتك هنا... مثال: عايز اطلب نظام APEX ERP لشركتي"></textarea>
+    <button class="btn-primary hire-send" id="hire-send-btn"><i class="fa-brands fa-whatsapp"></i> <span data-key="hire_send">إرسال عبر واتساب</span></button>
+  </div>
+</section>
+
+<section class="cta-sec">
+  <h2 class="reveal" data-key="cta_title">جاهز لتحويل <span class="gradient-word">أعمالك رقمياً؟</span></h2>
+  <p class="reveal" data-key="cta_sub">تواصل معنا اليوم واحصل على استشارة مجانية لاختيار الحل الأنسب لشركتك.</p>
+  <div class="cta-btns reveal">
+    <a href="#contact" class="btn-primary" data-key="contact_now">تواصل معنا الآن</a>
+    <a href="#subs" class="btn-outline" data-key="nav_subs">تعاقد الآن</a>
+  </div>
+</section>
+
+<footer>
+  <div class="f-brand">
+    <div class="f-logo">APEX SOFTWARE</div>
+    <p class="f-tagline" data-key="f_tagline">نحن لا نبرمج مجرد أنظمة، بل نصنع المحركات الذكية التي تقود الشركات نحو المستقبل.</p>
+  </div>
+  <div class="f-col">
+    <h4 data-key="f_prod">منتجاتنا</h4>
+    <ul>
+      <li><a href="#products">APEX ERP</a></li>
+      <li><a href="#products">APEX CRM</a></li>
+      <li><a href="#products">APEX POS</a></li>
+      <li><a href="#products">Talip</a></li>
+    </ul>
+  </div>
+  <div class="f-col">
+    <h4 data-key="f_svc">خدماتنا</h4>
+    <ul>
+      <li><a href="#services" data-key="svc1_title">أنظمة مخصصة</a></li>
+      <li><a href="#services" data-key="svc2_title">تطبيقات موبايل</a></li>
+      <li><a href="#services" data-key="svc3_title">مواقع ويب</a></li>
+    </ul>
+  </div>
+  <div class="f-col">
+    <h4 data-key="f_contact">تواصل معنا</h4>
+    <ul>
+      <li><a href="mailto:apexsoftware@gmail.com">apexsoftware@gmail.com</a></li>
+      <li><a href="tel:+201009758342" style="direction:ltr;">+20 100 975 8342</a></li>
+      <li><a href="tel:+201014689885" style="direction:ltr;">+20 101 468 9885</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="f-bottom">
+  <span class="f-copy" id="footer-text">جميع الحقوق محفوظة &copy; 2026 لـ <strong>Apex Software</strong></span>
+  <span class="f-copy" id="footer-loc">10th of Ramadan · Egypt</span>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="ApexSoftware.js" defer></script>
+</body>
+</html>
